@@ -38,7 +38,7 @@ profile = 100000425733973  # Start From Profile ID
 while(1 == 1):
     base_url = 'https://graph.facebook.com/'
     s_index = str(profile)
-    file_name = s_index;
+    file_name = s_index
     # Now download the image. b for binary
     downloadFile(file_name, "b", base_url)
     profile = profile + 1
